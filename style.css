@@ -1,3 +1,67 @@
-q {
-backgroud-color : red"
+/* Căn chỉnh toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Khung chứa nội dung */
+.container {
+    width: 50%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Phần hồ sơ cá nhân */
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #3498db;
+}
+
+.profile h1 {
+    color: #3498db;
+}
+
+/* Liên kết mạng xã hội */
+.social a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    background: #3498db;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.social a:hover {
+    background: #217dbb;
+}
+
+/* Phần sở thích */
+.hobbies {
+    margin-top: 20px;
+}
+
+.hobbies h2 {
+    color: #e74c3c;
+}
+
+.hobbies ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hobbies li {
+    background: #ecf0f1;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
 }
